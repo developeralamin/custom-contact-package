@@ -1,16 +1,16 @@
 {
-    "name": "TwiteSoft/contact",
+    "name": "Twitesoft/contact",
     "description": "This will send email to admin and database integrater",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "TwiteSoft\\Contact\\": "src/"
+            "Twitesoft\\Contact\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "developerTwiteSoft",
-            "email": "TwiteSoftcsetpi@gmail.com"
+            "name": "developerTwitesoft",
+            "email": "Twitesoftcsetpi@gmail.com"
         }
     ],
     "minimum-stability": "dev",

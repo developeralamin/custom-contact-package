@@ -1,6 +1,6 @@
 <?php 
 
-namespace TwiteSoft\Contact;
+namespace Twitesoft\Contact;
 
 use Illuminate\Support\ServiceProvider;
 

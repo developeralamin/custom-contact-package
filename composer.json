@@ -20,6 +20,9 @@
             "email": "twitesoftcsetpi@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "twitesoft/contact": "dev-master"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }

@@ -7,6 +7,13 @@
             "twitesoft\\Contact\\": "src/"
         }
     },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "twitesoft\\Contact\\ContactServiceProvider"
+        ]
+      }
+    },
     "authors": [
         {
             "name": "developertwitesoft",

@@ -1,8 +1,8 @@
 <?php
 
-namespace Twitesoft\Contact\Http\Controllers;
+namespace twitesoft\Contact\Http\Controllers;
 
-use Twitesoft\Contact\Models\Contact;
+use twitesoft\Contact\Models\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

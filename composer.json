@@ -1,16 +1,16 @@
 {
-    "name": "alamin/contact",
+    "name": "TwiteSoft/contact",
     "description": "This will send email to admin and database integrater",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Alamin\\Contact\\": "src/"
+            "TwiteSoft\\Contact\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "developeralamin",
-            "email": "alamincsetpi@gmail.com"
+            "name": "developerTwiteSoft",
+            "email": "TwiteSoftcsetpi@gmail.com"
         }
     ],
     "minimum-stability": "dev",

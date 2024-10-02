@@ -1,6 +1,6 @@
 <?php
 
-namespace Alamin\Contact\Models;
+namespace TwiteSoft\Contact\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

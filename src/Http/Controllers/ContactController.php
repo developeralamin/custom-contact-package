@@ -1,8 +1,8 @@
 <?php
 
-namespace Alamin\Contact\Http\Controllers;
+namespace TwiteSoft\Contact\Http\Controllers;
 
-use Alamin\Contact\Models\Contact;
+use TwiteSoft\Contact\Models\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

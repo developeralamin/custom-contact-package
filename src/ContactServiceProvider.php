@@ -1,6 +1,6 @@
 <?php 
 
-namespace Alamin\Contact;
+namespace TwiteSoft\Contact;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -2,12 +2,13 @@
 
 namespace twitesoft\Contact\Http\Controllers;
 
+use Illuminate\Support\Facades\Notification;
 use twitesoft\Contact\Models\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use twitesoft\Contact\Mail\ContactMailable;
 use Illuminate\Support\Facades\Mail;
-
+use twitesoft\Contact\Notifications\ContactNotification;
 class ContactController extends Controller
 {
      
@@ -20,7 +21,9 @@ class ContactController extends Controller
     {
       Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->name,$request->description));
 
-      Contact::create($request->all());
+      $contact = Contact::create($request->all());
+
+      $contact->notify(new ContactNotification($contact));
 
       return redirect()->back();
    }

@@ -21,7 +21,8 @@
         }
     ],
     "require": {
-        "twitesoft/contact": "dev-master"
+        "twitesoft/contact": "dev-master",
+         "guzzlehttp/guzzle": "^7.0"
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
